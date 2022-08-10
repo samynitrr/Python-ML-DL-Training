@@ -1,0 +1,15 @@
+# Dataset
+
+data = {'col1' : [1,2,3,4,5],'col2' : [45,None,34,None,34],'col3': "rohit kumar sharma google employee".split()}
+
+Questions
+Q1. Create a pandas dataframe with the above data.
+Q2. Provide the shape of the data.
+Q3. Provide the data types of each column.
+Q4. How many non-null values does each column have.
+Q5. Extract the col2 data as a Series data type and a dataframe data type.
+Q6. Filter the data where col1 value is odd.
+Q7. Filter the data where col2 value is Null.
+Q8. Filter the data where col3 value > 'employee' and col1 value is even.
+Q9. Create a new column called col4. col4 values condition: if col1 value is odd then square and if col1 value is even then cube.
+Q10. Create a new column called col5. col5 values condition: first 3 alphabets of the col3 values.
