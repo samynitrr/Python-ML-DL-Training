@@ -1,0 +1,67 @@
+--------------------------------- X---------------------------------
+
+age_list = [['Afghanistan', 1952, 8425333, 'Asia'],
+            ['Australia', 1957, 9712569, 'Oceania'],
+            ['Brazil', 1962, 76039390, 'Americas'],
+            ['China', 1957, 637408000, 'Asia'],
+            ['France', 1957, 44310863, 'Europe'],
+            ['India', 1952, 3.72e+08, 'Asia'],
+            ['United States', 1957, 171984000, 'Americas']]
+  
+# creating a pandas dataframe
+df = pd.DataFrame(age_list, columns=['Country', 'Year',
+                                     'Population', 'Continent'])
+
+
+Q1: Give the unique count of Country and Continent
+Q2: Give the value counts of all the columns in ascending order and the percentage values of each data
+Q3: Sort the dataframe by Country in an ascending order.
+Q4: Sort the dataframe by Population in a descending order.
+Q5: Sort the dataframe by Country and Continent
+
+------------------------------------ X -----------------------------------
+
+data = {''Date':['10/2/2011', '11/2/2011', '12/2/2011', '13/2/2011'],
+                   'Product':[' UMbreLla', '  maTress', 'BaDmintoN ', 'Shuttle'],
+                   'Updated_Price':[1250, 1450, 1550, 400],
+                   'Discount':[10, 8, 15, 10]}
+
+Q1: Create new columns 'Date', 'Month' and 'Year' from the 'Date' column
+Q2: Create a new column 'Product_Category' using 'Product' column
+Q3: Create a new column 'Original_Price' using 'Updated_Price' and 'Discount column'
+Q4: Create a new column 'Price_Diff' where each value is the price difference b/w 2 rows of 'Updated_Price' column. 
+Output: Price_Diff 200 100 -1150 400 Updated_Price 1250 1450 1550 400
+Q5: The name of the products is not in the proper format. 
+Properly format the data such that there are no leading and trailing whitespaces as well as
+the first letters of all products are capital letter.
+
+------------------------------------------------- X --------------------------------
+
+new_data = {'Date':['10/2/2011', '11/2/2011', '12/2/2011', '13/2/2011'],
+                    'Event':['Music', 'Poetry', 'Theatre', 'Comedy'],
+                    'Cost':[10000, 5000, 15000, 2000],
+                    'Artist':['John Larter', 'Robert Junior', 'Jonny Depp', 'Trevor Noah']}
+
+Q1: Create a new column called ‘Discounted_Price’ after applying a 10% discount on the existing ‘Cost’ column.
+Q2. Create 2 new columns called 'FirstName' and 'LastName' from column 'Artist'.
+
+--------------------------------------------------- X ----------------------------------
+df = pd.read_csv('assignment.csv')
+
+df.head(10)
+
+Q1. Get all the column names from the dataframe
+Q2. Provide the age distribution
+Q3. Get the age with the maximum frequency
+Q4. Provide the weight distribution
+Q5. Get the weight with least frequency
+Q6. Get the column names with missing values and the missing value counnts
+Q7. Get the top 5 salary based on the frequency
+Q8. How many players are b/w the ages of 15-25, 25-35, 35-45, 45-55
+Q9. Get the players who are taller than 6-5
+Q10. Which team has the maximum oldest players.
+Q11. Which team has the maximum youngest players.
+Q12. Which is the most played position.
+Q13. Get the college, team and name of the player with the highest salary
+Q14. Get the college, team and name of the player with the lowest salary
+Q15. Who is the oldest player and youngest player for Chicago Bulls
