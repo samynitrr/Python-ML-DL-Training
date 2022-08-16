@@ -1,0 +1,23 @@
+use the titanic dataset used in today's class and answer the following questions.
+df = pd.read_csv('https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv')
+
+1. Find out how many male and female passenger were onboarded .
+2. how many survived we have .
+3. how many casuality we have 
+4. what is name of a person who is the eldest one . 
+5. how many passenger do we have in first , second and third class 
+6. how many person we have whose name starts with "s"
+7. try to create a new column which is a summation  of "SibSp" and "parch"
+8. how many person do we have below age of 25 .
+9. how many person died whose age was less than 40 
+10. from a  cabin column separate text and numeric value .
+11. what is the minimum, maximum, average and median age
+12. Who was the oldest person and the youngest person on the ship
+13. How many male and female survived
+14. What is the total fare paid by men and women
+15. How many men and women were on the ship
+16. What is the total fare amount for the people who did not survive
+17. What is the average fare for the men and women for different Pclass values
+18. What is the count of survied and unsurvived based on the different Emabrked unique values
+19. What is the total fare amount for each Pclass
+20. What is the male and female median age distribution for each Embarked unique value
