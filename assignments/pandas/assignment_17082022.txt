@@ -1,0 +1,51 @@
+# Use the bank.csv dataset to solve the below questions
+
+1. how many campaign available in this dataset .
+
+2. how many users do we have with housing and personal loan .
+
+3. how many person do we have whose age is 60+ .
+
+4. in which month we have targeted most of the customer .
+
+5. which mode of call is giving you more result
+
+6. how many entrepreneurs do we have in this list
+
+7. how many customers do we have with negative balance
+
+8. prepare a group of data based on education level .
+
+
+------------------------------ Extra exercises --------------------
+# Use the Automobile_data.csv for the below exercises.
+
+1. From the given dataset print the first and last five rows
+
+2. Clean the dataset and update the CSV file. Replace all column values which contain ?, n.a, or NaN.
+
+3. Find the most expensive car company name
+
+4. Print All Toyota Cars details
+
+5. Count total cars per company
+
+6. Find each company’s Highest price car
+
+7. Find the average mileage of each car making company
+
+8. Sort all cars by Price column
+
+9. Split the dataframe by body_style and then Concatenate the data frames.
+
+10. Merge any 2 data frames with inner, left, right, outer. You can decide the column to merge on.
+
+11. What are the values at row index 32- 57 for all columns
+
+12. What are the values at columns [company	body-style	wheel-base	length] for all rows.
+
+13. What is the values at rows 3,56,47,38, 59, 26 for columns [0,5,3,7]
+
+14. What is the average price per company per bdoy-style per engine-type
+
+15. What is the min, mean, median, max values for horsepower, average-mileage, price columns.
