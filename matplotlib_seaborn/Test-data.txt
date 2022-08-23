@@ -1,0 +1,4 @@
+Point,Fanout,Cap,Trans,Incr,Path 
+clock SYS_2x_CLK (rise edge),,,,0.00,0.00
+clock network delay (ideal),,,,0.20,0.20
+Karnataka/Bangalore/Sarjapurr_i/tercnt_n_reg_reg/CLK (DFFARX1_HVT),0.20,0.00,0.20r,,
